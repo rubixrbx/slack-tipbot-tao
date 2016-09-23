@@ -1,7 +1,7 @@
 {
   "name": "slack-tipbot-node",
   "version": "2.1.4",
-  "description": "Dash Slack TipBot - Using local wallet",
+  "description": "Tao Slack TipBot - Using local wallet",
   "main": "bot.js",
   "dependencies": {
     "async": "^2.0.0",
@@ -33,12 +33,12 @@
     "slack",
     "slackbot",
     "tipbot",
-    "dash"
+    "tao"
   ],
   "author": "Naruby Riverlione <naruby.riverlione@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NarubyRiverlione/slack-tipbot-Dash/issues"
+    "url": "https://github.com/NarubyRiverlione/slack-tipbot-Tao/issues"
   },
   "snyk": true
 }
