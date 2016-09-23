@@ -38,7 +38,7 @@ module.exports = {
 
     // 'help_convert':
             '*convert*\t\task the bot to convert between a particular currency and Tao (or visa versa).\n' +
-    '\t\t_@TaoBot 0.03 TAO to GBP_ \t or \t _@TaoBot 15 EURO to DASH_\n',
+    '\t\t_@TaoBot 0.03 TAO to GBP_ \t or \t _@TaoBot 15 EURO to TAO_\n',
 
     // 'help_rain':
     // '*rain*\t\tcheck the available rain and threshold. \n ' +
@@ -150,7 +150,7 @@ module.exports = {
     // 'RainPerUser1': ' raindrops of ',
     // 'RainPerUser2': ' dash would fall',
     // 'RainClouds': ':rain_cloud: :rain_cloud: :rain_cloud:',
-    // 'RainNow': '*And the Tao Rain Gods said _LET IT RAIN DASH_* \n' +
+    // 'RainNow': '*And the Tao Rain Gods said _LET IT RAIN TAO_* \n' +
     // '_Each current online user will get a raindrop of_',
     // 'RainCannotFindRainAccount1': 'Could not find the Rain user : '*',
     // 'RainCannotFindRainAccount2': '*' \n Ask the Slack Admin(s) if the Rain feature is correctly setup.',
