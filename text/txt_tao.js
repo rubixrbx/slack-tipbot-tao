@@ -1,5 +1,5 @@
 
-var tipbotTxt = {
+module.exports = {
 // HELPTEXT
     'helpText': [
 //'title':
@@ -246,18 +246,14 @@ var tipbotTxt = {
         'You talking to me? Try again.'
     ],
 
-    'ERRORreadingDb': 'ERROR reading db:'
-};
+    'ERRORreadingDb': 'ERROR reading db:',
 
-var quizTxt = {
     'alreadyRunning' : 'Already in a quiz',
     'notStarted_noApprovedQ' :'Cannot start a quiz because there are no (approved) questions.\nCheck with the _quiz list_ command.',
     'done': 'All questions in this quiz are answered.',
     'notRunning':'Quiz isn\'t running at the moment',
-    'alreadyAnswered' : ' ,you already tried to answer this question, let the others have a try.'
-};
+    'alreadyAnswered' : ' ,you already tried to answer this question, let the others have a try.',
 
-var userTxt = {
 // GENERAL
     'Locked': ' , sorry you\re already doing a transaction. \n Wait a moment before starting a new one.',
 
@@ -284,4 +280,3 @@ var userTxt = {
 
 };
 
-module.exports = { tipbotTxt, userTxt, quizTxt };
