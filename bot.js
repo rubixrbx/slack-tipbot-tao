@@ -1,6 +1,6 @@
 'use strict';
 
-let _ = require('lodash');
+var _ = require('lodash');
 let debug = require('debug');
 let Botkit = require('botkit');
 let assert = require('assert');
