@@ -66,7 +66,7 @@ module.exports = {
     '*whisper*\tSend a message in a private channel to a user as TaoBot.\n' +
     '\t\t\t\t\tUse case :moderator warning.\n' +
     '\t\t_@TaoBot whisper @narbuy stop being silly man._\n' +
-    '\n\n' +
+    '\n\n',
     //'*sun threshold*\t set the threshold on where the balance of the sun account will be distributed\n' +
     //'\t\t\t\tbetween all the users that tipped. Defaults to 5 Tao.\n' +
     //'\t\t_@TaoBot sun threshold 2.5 dash_\n' +
