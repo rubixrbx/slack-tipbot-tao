@@ -260,7 +260,7 @@ controller.on('tick', function () {
             // only check sun balance every SUN_TIMER min
             if (sunTicker === 0) {
                 debug('tipbot:sun')('SUN: check balance > threshold now');
-                tipbot.checkForSun();
+                //tipbot.checkForSun();
 
                 // reset ticker
                 sunTicker = tipbot.OPTIONS.SUN_TIMER * 60;
