@@ -1,13 +1,13 @@
 'use strict';
 
 var _ = require('lodash');
-let debug = require('debug');
-let Botkit = require('botkit');
-let assert = require('assert');
-let parseArgs = require('minimist');
-let mongoose = require('mongoose');
-let autoIncrement = require('mongoose-auto-increment');
-let async = require('async');
+var debug = require('debug');
+var Botkit = require('botkit');
+var assert = require('assert');
+var parseArgs = require('minimist');
+var mongoose = require('mongoose');
+var autoIncrement = require('mongoose-auto-increment');
+var async = require('async');
 
 let argv = parseArgs(process.argv.slice(2));
 
