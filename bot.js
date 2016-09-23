@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var autoIncrement = require('mongoose-auto-increment');
 var async = require('async');
 
-let argv = parseArgs(process.argv.slice(2));
+var argv = parseArgs(process.argv.slice(2));
 
 const SLACK_TOKEN = argv['slack-token'] || process.env.TIPBOT_SLACK_TOKEN;
 const RPC_USER = argv['rpc-user'] || process.env.TIPBOT_RPC_USER;
@@ -29,7 +29,7 @@ const TIPBOT_OPTIONS = {
     SUN_TIMER: debugMode ? 30 : 30  // debug = check sun every minute, production check every 30 minutes
 };
 
-let OPTIONS = {
+var OPTIONS = {
     PRICE_CHANNEL_NAME: debugMode ? 'bot_testing' : 'price_speculation',
     WARN_MODS_USER_LEFT_CHANNELNAME: debugMode ? 'bot_testing' : 'moderators',
     WARN_NEW_USER_CHANNELNAME: debugMode ? 'bot_testing' : 'general',
@@ -40,13 +40,13 @@ let OPTIONS = {
     DB: 'mongodb://localhost/tipdb-dev' //tipbotdb
 };
 
-let initializing = 0;
+var initializing = 0;
 
-let tipbot = null;
+var tipbot = null;
 // decrease ticker until 0 => check sun balance > thershold
-let sunTicker = 0;
+var sunTicker = 0;
 // decrease ticker until 0 => show random help command text
-let helpTicker = OPTIONS.SHOW_RANDOM_HELP_TIMER === undefined ? 0 : OPTIONS.SHOW_RANDOM_HELP_TIMER * 60;
+var helpTicker = OPTIONS.SHOW_RANDOM_HELP_TIMER === undefined ? 0 : OPTIONS.SHOW_RANDOM_HELP_TIMER * 60;
 
 assert(SLACK_TOKEN, '--slack-token or TIPBOT_SLACK_TOKEN is required');
 assert(RPC_USER, '--rpc-user or TIPBOT_RPC_USER is required');
