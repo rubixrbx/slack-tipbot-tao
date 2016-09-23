@@ -1,6 +1,6 @@
 'use strict';
 
-let _ = require('lodash');
+let _ = require('lotao');
 let debug = require('debug');
 let Botkit = require('botkit');
 let assert = require('assert');
@@ -25,15 +25,15 @@ const TIPBOT_OPTIONS = {
     OTHER_BALANCES: true,
     WARN_MODS_NEW_USER: !debugMode,
     WARN_MODS_USER_LEFT: !debugMode,
-    SUN_USERNAME: 'dashsun',
+    SUN_USERNAME: 'taosun',
     SUN_TIMER: debugMode ? 30 : 30  // debug = check sun every minute, production check every 30 minutes
 };
 
 let OPTIONS = {
     PRICE_CHANNEL_NAME: debugMode ? 'bot_testing' : 'price_speculation',
     WARN_MODS_USER_LEFT_CHANNELNAME: debugMode ? 'bot_testing' : 'moderators',
-    WARN_NEW_USER_CHANNELNAME: debugMode ? 'bot_testing' : 'dash_chat',
-    MAIN_CHANNEL_NAME: debugMode ? 'bot_testing' : 'dash_chat',
+    WARN_NEW_USER_CHANNELNAME: debugMode ? 'bot_testing' : 'general',
+    MAIN_CHANNEL_NAME: debugMode ? 'bot_testing' : 'general',
 
     SHOW_RANDOM_HELP_TIMER: 720, // show a random help command every X minutes (6/12 hours = 360/720 minutes)
 

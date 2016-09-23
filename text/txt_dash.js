@@ -61,15 +61,15 @@ const tipbotTxt = {
 '*balance all*\tshow all the tip jars (must be enabled in code)\n' +
 '\n' +
 '*balance check*\tshow the balance of a specific user (must be enabled in code) \n' +
-'\t\t_@dashbot balance check @naruby_ \n' +
+'\t\t_@taobot balance check @naruby_ \n' +
 '\n\n' +
-'*whisper*\tSend a message in a private channel to a user as dashbot.\n' +
+'*whisper*\tSend a message in a private channel to a user as taobot.\n' +
 '\t\t\t\t\tUse case :moderator warning.\n' +
 '\t\t_@Taobot whisper @narbuy stop being silly man._\n' +
 '\n\n' +
 '*sun threshold*\t set the threshold on where the balance of the sun account will be distributed\n' +
 '\t\t\t\tbetween all the users that tipped. Defaults to 5 Tao.\n' +
-'\t\t_@dashbot sun threshold 2.5 dash_\n' +
+'\t\t_@taobot sun threshold 2.5 tao_\n' +
 '\n' +
 '*sun eligible*\tSee which users are eligible for a sunray.\n' +
 '\n' +
@@ -78,13 +78,13 @@ const tipbotTxt = {
 '*quiz list*\t\tShow all approved questions.\n' +
 '*quiz review*\tList all questions that need to be reviewed (reward = 0).\n' +
 '*quiz delete _question number_*\tDelete a question.\n' +
-'*quiz reward _question number_*\tSet/change reward for a question (also approves the question). @dashbot will ask amount.\n' +
+'*quiz reward _question number_*\tSet/change reward for a question (also approves the question). @taobot will ask amount.\n' +
 '*quiz start*\t\tStart a quiz.\n' +
 '*quiz abort*\t\tStop a quiz without showing results.\n'+
 '*quiz next*\t\tSkip the current question (if no one finds the answer).\n',
 
     'tx_fee': 'The transaction fee is set to ',
-    'HelpRandom1': 'Here is an example of one of my commands, type "@dashbot help" for my full list. ',
+    'HelpRandom1': 'Here is an example of one of my commands, type "@taobot help" for my full list. ',
 // 'HelpRandom2': 'You can get information about all my other cool tricks via the *help* command. \n Have a nice day !',
 // NEW USER
     'WarningNewUser1': 'The new user ',
