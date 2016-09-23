@@ -1,5 +1,5 @@
 
-const tipbotTxt = {
+var tipbotTxt = {
 // HELPTEXT
     'helpText': [
 //'title':
@@ -249,7 +249,7 @@ const tipbotTxt = {
     'ERRORreadingDb': 'ERROR reading db:'
 };
 
-const quizTxt = {
+var quizTxt = {
     'alreadyRunning' : 'Already in a quiz',
     'notStarted_noApprovedQ' :'Cannot start a quiz because there are no (approved) questions.\nCheck with the _quiz list_ command.',
     'done': 'All questions in this quiz are answered.',
@@ -257,7 +257,7 @@ const quizTxt = {
     'alreadyAnswered' : ' ,you already tried to answer this question, let the others have a try.'
 };
 
-const userTxt = {
+var userTxt = {
 // GENERAL
     'Locked': ' , sorry you\re already doing a transaction. \n Wait a moment before starting a new one.',
 
