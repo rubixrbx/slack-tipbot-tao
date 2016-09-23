@@ -1,12 +1,12 @@
 'use strict';
 // Quiz model
 
-let mongoose = require('mongoose'),
+var mongoose = require('mongoose'),
     autoInc = require('mongoose-auto-increment'),
     Schema = mongoose.Schema;
 
 
-let QuizShema = new Schema({
+var QuizShema = new Schema({
     question: String,
     answer: String,
     reward: {type: Number, default: 0, index:true},
